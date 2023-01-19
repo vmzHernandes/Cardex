@@ -1,0 +1,69 @@
+body, html {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 20px;
+}
+.container {
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(to bottom right, pink, skyblue);
+	position: absolute;
+}
+.card {
+	position: absolute;
+	height: 60%;
+	width: 20%;
+	top: 20%;
+	right: 40%;
+	background-image: linear-gradient(to bottom right, skyblue, pink);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 22px 70px 4px;
+	border-radius: 15px;
+}
+.imagem {
+	position: absolute;
+	height: 40%;
+	width: 90%;
+	top: 3.5%;
+	right: 5%;
+	border: 1px black;
+	background-image: url("Imagens/f1.jpg");
+	background-size: contain;
+/*	background-size: cover;
+	background-size: 100%;*/
+	background-repeat: no-repeat;
+	border-radius: 15px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: transparent;
+ }
+.imagem:hover .overlay{
+	opacity: 1;
+}
+.info {
+	color: white;
+  	font-size: 20px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+}
+.texto {
+	position: absolute;
+	border: 1px solid black;
+	height: 51.5%;
+	width: 90%;
+	top: 45%;
+	right: 5%;
+	border-radius: 15px;
+}

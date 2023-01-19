@@ -1,0 +1,77 @@
+body, html {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 20px;
+}
+.container {
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(to bottom right, pink, skyblue);
+	position: absolute;
+}
+.card {
+	position: absolute;
+	height: 600px;
+	width: 400px;
+	top: 20%;
+	right: 40%;
+	background-image: linear-gradient(to bottom right, skyblue, pink);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 22px 70px 4px;
+	border-radius: 15px;
+}
+.imagem {
+	position: absolute;
+	height: 40%;
+	width: 90%;
+	top: 3.5%;
+	right: 5%;
+	border: 1px white;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+}
+.imagem img {
+	height: 85%;
+	width: 100%;
+	border-radius: 15px;
+	filter: blur(0px);
+}
+img:hover {
+	filter: blur(5px);
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 85%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+}
+.imagem:hover .overlay{
+	opacity: 1;
+	filter: blur(5px);
+}
+.info {
+	color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.texto {
+	color: #222;
+	position: absolute;
+	border: 1px solid white;
+	height: 55.5%;
+	width: 90%;
+	top: 40%;
+	right: 5%;
+	border-radius: 15px;
+}
