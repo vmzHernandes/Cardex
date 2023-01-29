@@ -3,10 +3,10 @@ body, html {
 	margin: 0px;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
-	background-color: #d4d4d4;
+	background-color: #0C1A1A;
 }
 p {
-    color: #448585;
+    color: #ffffff;
 }
 .container {
 	height: 100%;
@@ -34,16 +34,17 @@ p {
 	text-align: center;
 }
 .menu li:hover {
-	background-color: #111010;
+	background-color: #0C1A1A;
 	transition: 0.8s linear;
 }
-a {
+.menu a {
 	text-decoration: none;
-	color: #448585;
+	color: #ffffff;
 }
-a:visited {
-	color: white;
-}
+/* .menu a:visited {
+	text-decoration: line-through;
+	color: red;
+} */
 .card {
 	position: absolute;
 	height: 600px;
