@@ -3,7 +3,10 @@ body, html {
 	margin: 0px;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
-	background-color: #d8db18;
+	background-color: #d4d4d4;
+}
+p {
+    color: #448585;
 }
 .container {
 	height: 100%;
@@ -14,8 +17,8 @@ body, html {
 	position: absolute;
 	height: 100%;
 	width: 300px;
-	background-color: #162e42;
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 22px 70px 4px;
+	background-color: #080808;
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 22px 70px 4px; */
 }
 .menu ul {
 	height: 885px;
@@ -31,15 +34,15 @@ body, html {
 	text-align: center;
 }
 .menu li:hover {
-	background-color: red;
+	background-color: #111010;
 	transition: 0.8s linear;
 }
 a {
 	text-decoration: none;
-	color: #fff;
+	color: #448585;
 }
 a:visited {
-	color: #eeff00;
+	color: white;
 }
 .card {
 	position: absolute;
@@ -47,8 +50,11 @@ a:visited {
 	width: 400px;
 	top: 18%;
 	right: 33%;
-	background-color: #ffffff;;
+	background-color: #080808;;
 	border-radius: 15px;
+}
+.card li {
+	color: white;
 }
 .card:hover {
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 22px 70px 4px;
@@ -113,7 +119,7 @@ img:hover {
 .texto {
 	color: #222;
 	position: absolute;
-	border: 1px solid rgb(0, 0, 0);
+	border: 1px solid white;
 	height: 55.5%;
 	width: 90%;
 	top: 40%;
