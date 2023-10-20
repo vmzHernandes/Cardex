@@ -1,0 +1,46 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+    background-color: #000000;
+}
+button {
+    cursor: pointer;
+}
+.acordeao {
+    background-color: #000000;
+    color: #fff;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #fff; 
+}
+.acordeao:after {
+    content: '⏷';
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+} 
+.active:after {
+    content: "⏶";
+}
+.active, .acordeao:hover {
+    background-color: #131313;
+}
+.container {
+    padding: 0 18px;
+    color: #fff;
+    background-color: #000000;
+    display: none;
+    overflow: hidden;
+} 
+a {
+    color: #fff;
+}
+img {
+    max-width: 400px;
+    padding: 1rem;
+}
